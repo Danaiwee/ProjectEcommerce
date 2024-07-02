@@ -291,3 +291,52 @@ main {
     font-weight: bold;
     color: #272727;
 }
+
+.section-4 {
+    background-image: url(/images/23BG.jpg);
+    background-size: 100% 100%;
+    padding-bottom: 80px;
+    padding-top: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-4 > div > p {
+    color: gray;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.section-4 > div > h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: gray;
+}
+
+.section-4 > div:nth-child(3) p{
+    background-color: #eaebf0;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.section-4 > div:nth-child(3)  p:hover {
+    background-color: #0889ac;
+    color: white;
+}
+
+.section-4 > div:nth-child(3) > a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.section-4 > div:nth-child(3)  a:hover {
+    color: white;
+}
+
