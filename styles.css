@@ -340,3 +340,12 @@ main {
     color: white;
 }
 
+.box-3-3-2 {
+    margin-top: 5px;
+    color: gray;
+    height: 44px;
+    display: flex;
+    align-items: flex-end;
+}
+
+
